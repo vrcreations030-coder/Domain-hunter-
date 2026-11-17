@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domain Hunter – Fast Domain Availability &amp; Brand Search</title>
+    <meta name="description" content="Hunt available domains in milliseconds with Domain Hunter. Live RDAP &amp; DNS checks, Gemini AI brand naming, bulk scanner, and cloud watchlists." />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Domain Hunter" />
+    <meta property="og:title" content="Domain Hunter – Fast Domain Availability &amp; Brand Search" />
+    <meta property="og:description" content="Hunt available domains in milliseconds with Domain Hunter. Live RDAP &amp; DNS checks, Gemini AI brand naming, bulk scanner, and cloud watchlists." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Domain Hunter – Fast Domain Availability &amp; Brand Search" />
+    <meta name="twitter:description" content="Hunt available domains in milliseconds with Domain Hunter. Live RDAP &amp; DNS checks, Gemini AI brand naming, bulk scanner, and cloud watchlists." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "name": "Domain Hunter",
+            "applicationCategory": "UtilitiesApplication",
+            "operatingSystem": "All",
+            "description": "Hunt available domains in milliseconds with live RDAP & DNS verification, AI brand naming, and cloud watchlists.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How does Domain Hunter verify availability?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Domain Hunter runs parallel server-side RDAP registry queries and authoritative DNS lookups so you get accurate availability results without browser CORS blocks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Domain Hunter keep searched domains private?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Searches are never logged for front-running or domain warehousing, and cloud watchlists are protected by authenticated owner-only Firestore security rules."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-50 dark:bg-[#09090b] text-slate-900 dark:text-zinc-100 antialiased selection:bg-emerald-500/30">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

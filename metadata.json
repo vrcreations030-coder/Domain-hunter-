@@ -1,0 +1,6 @@
+{
+  "name": "Instant Domain Search",
+  "description": "Fast domain search SaaS with server-side RDAP/DNS verification, Gemini AI brand generator, 20-year Time Machine, and SEO-ready pages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
